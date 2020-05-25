@@ -2,6 +2,7 @@
 	"name": "@ctx-core/combinators",
 	"version": "4.2.14",
 	"description": "ctx-core combinators",
+	"type": "module",
 	"main": "lib.js",
 	"module": "lib.js",
 	"types": "lib.ts",
