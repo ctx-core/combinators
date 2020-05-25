@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/combinators",
-	"version": "4.2.16",
+	"version": "4.2.17",
 	"description": "ctx-core combinators",
 	"main": "lib.js",
 	"module": "lib.js",
