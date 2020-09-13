@@ -2,6 +2,20 @@
 	"name": "@ctx-core/combinators",
 	"version": "4.2.26",
 	"description": "ctx-core combinators",
+	"keywords": [
+		"ctx-core",
+		"combinators"
+	],
+	"homepage": "https://github.com/ctx-core/combinators#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/combinators/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/combinators/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,23 +23,9 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/combinators/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"combinators"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/combinators/issues"
-	},
-	"homepage": "https://github.com/ctx-core/combinators#readme",
 	"publishConfig": {
 		"access": "public"
 	},
