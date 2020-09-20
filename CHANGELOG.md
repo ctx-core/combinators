@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 5.0.2
+
+### Patch Changes
+
+- version bump to sync with npm
+
 ## 5.0.1
 
 ### Patch Changes
