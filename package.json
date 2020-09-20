@@ -1,36 +1,35 @@
 {
-  "name": "@ctx-core/combinators",
-  "version": "5.0.1",
-  "description": "ctx-core combinators",
-  "keywords": [
-    "ctx-core",
-    "combinators"
-  ],
-  "homepage": "https://github.com/ctx-core/combinators#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/combinators/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/combinators/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "main": "./index.js",
-  "module": "./index.js",
-  "types": "./index.ts",
-  "scripts": {
-    "build": "npm run clean && npm run compile",
-    "clean": "rm -f tsconfig.tsbuildinfo",
-    "compile": "./node_modules/.bin/tsc -b",
-    "exec": "$@",
-    "prepublishOnly": "npm run compile"
-  },
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "bca8de733cf34a7836aaf4944c6a09817edc1052"
+	"name": "@ctx-core/combinators",
+	"version": "5.0.1",
+	"description": "ctx-core combinators",
+	"keywords": [
+		"ctx-core",
+		"combinators"
+	],
+	"homepage": "https://github.com/ctx-core/combinators#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/combinators/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/combinators/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"main": "./index.js",
+	"module": "./index.js",
+	"types": "./index.ts",
+	"scripts": {
+		"build": "npm run clean && npm run compile",
+		"clean": "rm -f tsconfig.tsbuildinfo",
+		"compile": "./node_modules/.bin/tsc -b",
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
+	},
+	"devDependencies": {
+		"typescript": "^4.0.3"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
