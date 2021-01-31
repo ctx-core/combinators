@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 6.0.0
+
+### Major Changes
+
+- src directory
+
 ## 5.0.6
 
 ### Patch Changes
