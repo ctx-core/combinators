@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 6.0.12
+
+### Patch Changes
+
+- fix types
+
 ## 6.0.11
 
 ### Patch Changes

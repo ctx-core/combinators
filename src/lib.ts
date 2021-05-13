@@ -7,11 +7,11 @@ export function I<X extends unknown = unknown>(x:X) {
 }
 // export const K = x=>_=>x
 export function K<X extends unknown = unknown>(x:X) {
-	return _=>x
+	return (_:any)=>x
 }
 // export const A = f=>x=>f(x)
 export function A<X extends unknown = unknown, O extends unknown = unknown>(f:(x:X)=>O) {
-	return x=>f(x)
+	return (x:X)=>f(x)
 }
 // export const T = x=>f=>f(x)
 export function T<X extends unknown = unknown, O extends unknown = unknown>(x:X) {
@@ -19,25 +19,25 @@ export function T<X extends unknown = unknown, O extends unknown = unknown>(x:X)
 }
 // export const W = f=>x=>f(x)(x)
 export function W<X extends unknown = unknown, O extends unknown = unknown>(f:(x:X)=>(x:X)=>O) {
-	return x=>f(x)(x)
+	return (x:X)=>f(x)(x)
 }
 // export const C = f=>y=>x=>f(x)(y)
 export function C<X extends unknown = unknown, Y extends unknown = unknown, O extends unknown = unknown>(
 	f:(x:X)=>(y:Y)=>O
 ) {
-	return y=>x=>f(x)(y)
+	return (y:Y)=>(x:X)=>f(x)(y)
 }
 // export const B = f=>g=>x=>f(g(x))
 export function B<X extends unknown = unknown, Og extends unknown = unknown, O extends unknown = unknown>(
 	f:(og:Og)=>O
 ) {
-	return (g:(x:X)=>Og)=>(x)=>f(g(x))
+	return (g:(x:X)=>Og)=>(x:X)=>f(g(x))
 }
 // export const S = f=>g=>x=>f(x)(g(x))
 export function S<X extends unknown = unknown, Og extends unknown = unknown, O extends unknown = unknown>(
 	f:(x:X)=>(og:Og)=>O
 ) {
-	return (g:(x:X)=>Og)=>(x)=>f(x)(g(x))
+	return (g:(x:X)=>Og)=>(x:X)=>f(x)(g(x))
 }
 // export const P = f=>g=>x=>y=>f(g(x))(g(y))
 export function P</*@formatter:off*/
@@ -59,7 +59,7 @@ export function Y</*@formatter:off*/
 /*@formatter:on*/>(
 	f:(ff:(x:X)=>Of)=>Off
 ) {
-	return (g=>g(g))(g=>f((x:X)=>g(g)(x)))
+	return (g=>g(g))((g:(g:any)=>any)=>f((x:X)=>g(g)(x)))
 }
 export function I__<O extends unknown = unknown, R extends unknown = unknown>(x:O, ..._:R[]) {
 	return x
