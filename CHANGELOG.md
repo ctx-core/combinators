@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 6.1.0
+
+### Minor Changes
+
+- "noImplicitAny": true
+
 ## 6.0.12
 
 ### Patch Changes
