@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 6.1.2
+
+### Patch Changes
+
+- .npmignore: + ~
+
 ## 6.1.1
 
 ### Patch Changes
