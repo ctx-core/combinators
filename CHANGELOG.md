@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 6.3.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
 ## 6.2.1
 
 ### Patch Changes
