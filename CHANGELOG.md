@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 8.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
 ## 7.0.10
 
 ### Patch Changes
