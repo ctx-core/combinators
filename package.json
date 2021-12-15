@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/combinators",
-	"version": "8.0.27",
+	"version": "8.0.28",
 	"description": "ctx-core combinators",
 	"keywords": [
 		"ctx-core",
@@ -12,15 +12,15 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/ctx-core/combinators/issues"
+		"url": "https://github.com/ctx-core/combinators.git"
 	},
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
 	"exports": {
 		".": {
-			"types": "./src/index.ts",
-			"import": "./dist/index.js"
+			"import": "./dist/index.js",
+			"types": "./src/index.ts"
 		},
 		"./package.json": "./package.json"
 	},
