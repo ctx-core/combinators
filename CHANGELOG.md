@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 8.0.29
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+
 ## 8.0.28
 
 ### Patch Changes
