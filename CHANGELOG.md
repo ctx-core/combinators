@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 8.0.30
+
+### Patch Changes
+
+- \*.d.ts export
+
 ## 8.0.29
 
 ### Patch Changes
