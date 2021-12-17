@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 8.0.32
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+
 ## 8.0.31
 
 ### Patch Changes
