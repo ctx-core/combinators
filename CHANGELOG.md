@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 8.0.33
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+
 ## 8.0.32
 
 ### Patch Changes
