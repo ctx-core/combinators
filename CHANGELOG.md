@@ -1,5 +1,12 @@
 # @ctx-core/combinators
 
+## 8.0.36
+
+### Patch Changes
+
+- uvu: ^0.5.2 -> ^0.5.3
+- @swc/core: ^1.2.125 -> ^1.2.127
+
 ## 8.0.35
 
 ### Patch Changes

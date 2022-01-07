@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/combinators",
-	"version": "8.0.35",
+	"version": "8.0.36",
 	"description": "ctx-core combinators",
 	"keywords": [
 		"ctx-core",
@@ -36,12 +36,12 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.125",
+		"@swc/core": "^1.2.127",
 		"c8": "^7.11.0",
 		"check-dts": "^0.6.6",
 		"tsm": "^2.2.1",
 		"typescript": "next",
-		"uvu": "^0.5.2"
+		"uvu": "^0.5.3"
 	},
 	"publishConfig": {
 		"access": "public",
