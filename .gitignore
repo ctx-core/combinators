@@ -4,3 +4,4 @@ node_modules
 COMMIT_EDITMSG
 ~/.npm
 types
+*.tgz
