@@ -5,3 +5,4 @@ COMMIT_EDITMSG
 ~/.npm
 types
 *.tgz
+.idea
