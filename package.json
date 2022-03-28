@@ -35,8 +35,8 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1.56",
-		"@swc/core": "^1.2.160",
+		"@swc/cli": "^0.1.57",
+		"@swc/core": "^1.2.161",
 		"c8": "^7.11.0",
 		"check-dts": "^0.6.6",
 		"tsm": "^2.2.1",
