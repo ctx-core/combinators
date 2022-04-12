@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 8.0.38
+
+### Patch Changes
+
+- package.json: exports: update
+
 ## 8.0.37
 
 ### Patch Changes
