@@ -34,7 +34,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.57",
-		"@swc/core": "^1.2.177",
+		"@swc/core": "^1.2.178",
 		"c8": "^7.11.2",
 		"check-dts": "^0.6.7",
 		"tsm": "^2.2.1",
