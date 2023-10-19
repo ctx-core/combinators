@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 8.0.63
+
+### Patch Changes
+
+- tsx: ^3.13.0 -> ^3.14.0
+
 ## 8.0.62
 
 ### Patch Changes
