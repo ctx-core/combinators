@@ -1,5 +1,15 @@
 # @ctx-core/combinators
 
+## 8.1.4
+
+### Patch Changes
+
+- package.json: files:
+
+      *.d.ts
+      *.js
+      *.json
+
 ## 8.1.3
 
 ### Patch Changes
