@@ -1,5 +1,13 @@
 # @ctx-core/combinators
 
+## 8.1.156
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 8.1.155
 
 ### Patch Changes

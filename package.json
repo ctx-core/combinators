@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/combinators",
-	"version": "8.1.155",
+	"version": "8.1.156",
 	"description": "ctx-core combinators",
 	"keywords": [
 		"ctx-core",
@@ -15,7 +15,11 @@
 		"url": "https://github.com/ctx-core/combinators.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-combinators@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -38,7 +42,7 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^6.6.0"
+		"ctx-core": "^6.6.1"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
