@@ -1,5 +1,11 @@
 # @ctx-core/combinators
 
+## 8.1.174
+
+### Patch Changes
+
+- ctx-core: ^7.1.5 -> ^7.2.0
+
 ## 8.1.173
 
 ### Patch Changes
